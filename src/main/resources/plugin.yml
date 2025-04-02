@@ -1,0 +1,21 @@
+name: Credits
+version: '1.0'
+main: com.example.credits.CreditsPlugin
+api-version: '1.21'
+description: A plugin that allows you to display and edit credits
+commands:
+  credits:
+    description: Display the credits
+    usage: /credits
+    permission: credits.view
+  editcredits:
+    description: Add or remove credits
+    usage: /editcredits <add|remove> <line>
+    permission: credits.edit
+permissions:
+  credits.view:
+    description: Allows players to view credits
+    default: true
+  credits.edit:
+    description: Allows players to edit credits
+    default: op

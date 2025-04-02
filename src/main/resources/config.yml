@@ -1,0 +1,7 @@
+# Credits Plugin Configuration
+
+# List of credit lines to display
+# You can use color codes with the § symbol
+credits:
+  - "§6Created by: YourName"
+  - "§bThanks for using this plugin!"
