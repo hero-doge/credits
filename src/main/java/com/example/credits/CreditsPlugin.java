@@ -39,7 +39,7 @@ public class CreditsPlugin extends JavaPlugin {
         } else {
             // Default credits
             credits = new ArrayList<>();
-            credits.add("§6Created by: YourName");
+            credits.add("§6Created by: naomi/herodoge");
             credits.add("§bThanks for using this plugin!");
             
             // Save default credits
